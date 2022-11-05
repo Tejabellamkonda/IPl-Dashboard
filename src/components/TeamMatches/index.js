@@ -13,7 +13,7 @@ class TeamMatches extends Component {
   state = {
     matchDetails: [],
     teamBanner: '',
-    isLoding: true,
+    isLoading: true,
     latestMatchDetails: '',
   }
 
@@ -60,16 +60,16 @@ class TeamMatches extends Component {
     this.setState({
       matchDetails: formattedData,
       teamBanner: teamBannerUrl,
-      isLoding: false,
+      isLoading: false,
       latestMatchDetails: latestMatch,
     })
   }
 
   render() {
-    const {matchDetails, teamBanner, isLoding, latestMatchDetails} = this.state
+    const {matchDetails, teamBanner, isLoading, latestMatchDetails} = this.state
     return (
       <div className="teamMatchContainer">
-        {isLoding ? (
+        {isLoading ? (
           <div className="loder">
             <Loader
               type="Oval"
