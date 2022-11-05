@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.container {
+  background-color: #0f172a;
+}
+.item-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.box {
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #ffffff;
+  width: 400px;
+  list-style-type: none;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.loss {
+  color: #e31a1a;
+}
+.won {
+  color: #18ed66;
+}

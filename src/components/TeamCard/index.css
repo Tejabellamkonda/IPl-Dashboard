@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.itemCard {
+  list-style-type: none;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  background-color: #ffffff33;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.linkStyle {
+  list-style-type: none;
+  text-decoration: none;
+}

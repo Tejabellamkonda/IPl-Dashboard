@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contDetails {
+  text-align: end;
+}
